@@ -1,1 +1,4 @@
 Testando repo
+
+Verificar arquivo usando git status
+Adicionar arquivos novos com git add, tanto arquivos específicos quanto todos os arquivos. Todos os arquivos: git add .
