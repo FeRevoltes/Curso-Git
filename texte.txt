@@ -2,3 +2,4 @@ Testando repo
 
 Verificar arquivo usando git status
 Adicionar arquivos novos com git add, tanto arquivos específicos quanto todos os arquivos. Todos os arquivos: git add .
+para 'commitar' um arquivo usa git commit -m arquivo.txt "commit", para todos os arquivos git commit -a -m "commit"
