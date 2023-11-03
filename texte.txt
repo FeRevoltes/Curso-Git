@@ -1,6 +1,13 @@
-Testando repo
+Aprendendo sobre Git
 
-Verificar arquivo usando git status
-Adicionar arquivos novos com git add, tanto arquivos específicos quanto todos os arquivos. Todos os arquivos: git add .
-para 'commitar' um arquivo usa git commit -m arquivo.txt "commit", para todos os arquivos git commit -a -m "commit"
-Enviar o código repositório remoto usando git push
+git init: Cria um repositório vazio
+git status: Verifica o arquivo e suas necessidades.
+
+git add "arquivo_name.txt": Adiciona um arquivo específico.
+git add .: Adiciona todos os arquivos.
+
+git commit -m arquivo_name.txt "commit": Comita um arquivo específico.
+git commit -a -m "commit": Comita todos os arquivos.
+
+git push: Envia os arquivos para o repositório.
+git pull: Recebe os arquivos do repositório.
