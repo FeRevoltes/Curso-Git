@@ -15,3 +15,6 @@ git pull: Receber os arquivos do repositório.
 git clone url.git .: Clona no diretório atual.
 
 git rm arquivo.txt: Remove um arquivo.
+git mv arquivo.txt: Renomear ou mover um arquivo
+
+git log: Verificar modificações feitas.
