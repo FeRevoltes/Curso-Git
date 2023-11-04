@@ -12,4 +12,6 @@ git commit -a -m "commit": Comita todos os arquivos.
 git push: Envia os arquivos para o repositório.
 git pull: Receber os arquivos do repositório.
 
-git clone url.git .: Clona no diretório atual 
+git clone url.git .: Clona no diretório atual.
+
+git rm arquivo.txt: Remove um arquivo.
