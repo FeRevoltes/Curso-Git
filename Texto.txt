@@ -20,4 +20,7 @@ git mv arquivo.txt Pasta/arquivo.txt: Mover um arquivo
 git log: Verificar modificações feitas.
 git checkout arquivo.txt: Retorna o arquivo modificado ao estado original.
 
+git reset: reseta as mudanças feitas, geralmente utilizado com a flag --hard.
+git reset --hard
+
 .gitignore: Iginorar arquivos que não devem entrar no versionamento, útil para arquivos gerados automaticamente ou arquivos que contêm informações sensíveis.
