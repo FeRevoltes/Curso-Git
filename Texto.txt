@@ -18,4 +18,6 @@ git rm arquivo.txt: Remove um arquivo.
 git mv arquivo.txt Pasta/arquivo.txt: Mover um arquivo
 
 git log: Verificar modificações feitas.
-git checkout: Retorna o arquivo modificado ao estado original
+git checkout arquivo.txt: Retorna o arquivo modificado ao estado original.
+
+.gitignore: Iginorar arquivos que não devem entrar no versionamento, útil para arquivos gerados automaticamente ou arquivos que contêm informações sensíveis.
