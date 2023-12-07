@@ -1,12 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aprendendo Git</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="../CSS/style.css" />
+  </head>
+
+  <body>
+    <div id="box">
+      <h4>Comandos Git</h4>
+
+      <p><code>git init</code>: Cria um repositório vazio.</p>
+      <p><code>git status</code>: Verifica o arquivo e suas necessidades.</p>
+
+      <p>
+        <code>git add "arquivo_name.txt"</code>: Adiciona um arquivo específico.
+      </p>
+      <p><code>git add .</code>: Adiciona todos os arquivos.</p>
+
+      <p>
+        <code>git commit -m "arquivo_name.txt commit"</code>: Comita um arquivo
+        específico.
+      </p>
+      <p><code>git commit -a -m "commit"</code>: Comita todos os arquivos.</p>
+
+      <p><code>git push</code>: Envia os arquivos para o repositório.</p>
+      <p><code>git pull</code>: Receber os arquivos do repositório.</p>
+
+      <p><code>git clone url.git .</code>: Clona no diretório atual.</p>
+
+      <p><code>git rm arquivo.txt</code>: Remove um arquivo.</p>
+      <p>
+        <code>git mv arquivo.txt Pasta/arquivo.txt</code>: Mover um arquivo.
+      </p>
+
+      <p><code>git log</code>: Verificar modificações feitas.</p>
+      <p>
+        <code>git checkout arquivo.txt</code>: Retorna o arquivo modificado ao
+        estado original.
+      </p>
+
+      <p>
+        <code>git reset --hard</code>: Reseta as mudanças feitas, geralmente
+        utilizado com a flag --hard.
+      </p>
+
+      <p>
+        <code>.gitignore</code>: Ignorar arquivos que não devem entrar no
+        versionamento, útil para arquivos gerados automaticamente ou arquivos
+        que contêm informações sensíveis.
+      </p>
+    </div>
+  </body>
 </html>
