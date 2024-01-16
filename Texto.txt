@@ -1,5 +1,6 @@
 Aprendendo sobre Git
 
+"Git Fundamental"
 git init: Cria um repositório vazio
 git status: Verifica o arquivo e suas necessidades.
 
@@ -24,3 +25,7 @@ git reset: reseta as mudanças feitas, geralmente utilizado com a flag --hard.
 git reset --hard
 
 .gitignore: Iginorar arquivos que não devem entrar no versionamento, útil para arquivos gerados automaticamente ou arquivos que contêm informações sensíveis.
+
+"Trabalhando com branches"
+git branch: visualizar os branchs disponíveis
+git branch nome-novo-brench: para criar um branch
